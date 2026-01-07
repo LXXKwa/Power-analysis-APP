@@ -1,0 +1,17 @@
+Package: myShinyApp
+Type: Shiny
+Title: My Shiny App
+Version: 0.1.0
+Author: Your Name
+Description: A test app.
+Imports:
+    shiny,
+    pwr4exp,
+    dplyr,
+    rhandsontable,
+    bslib,
+    data.table,
+    shinyBS,
+    bsplus,
+    readxl,
+    rsconnect
