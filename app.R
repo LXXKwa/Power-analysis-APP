@@ -1,4 +1,4 @@
-#### install packages 
+#### install packages2
 packages <- c('pwr4exp','rhandsontable','shiny','bslib','data.table','shinyBS','bsplus','readxl','rsconnect')
 for (p in packages) {
   if (!requireNamespace(p, quietly = TRUE)) install.packages(p)
