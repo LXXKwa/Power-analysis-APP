@@ -1,9 +1,9 @@
+#### install packages 
 packages <- c('pwr4exp','rhandsontable','shiny','bslib','data.table','shinyBS','bsplus','readxl','rsconnect')
 for (p in packages) {
   if (!requireNamespace(p, quietly = TRUE)) install.packages(p)
   library(p, character.only = TRUE)
 }
-
 
 ui <- page_fillable(
   theme = bs_theme(preset = "cosmo"),
