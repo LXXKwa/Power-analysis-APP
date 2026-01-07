@@ -4,7 +4,6 @@ for (p in packages) {
   library(p, character.only = TRUE)
 }
 
-
 ui <- page_fillable(
   theme = bs_theme(preset = "cosmo"),
   tags$head(
